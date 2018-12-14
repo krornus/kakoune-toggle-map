@@ -3,7 +3,7 @@
 This is a kakoune plugin for creating togglable commands. It defines the command `toggle-map` which takes two mappings instead of one. The first mapping is run when toggling on, and the second is run when toggling off.
 The toggle-on command is the default mapping.
 
-# Example: hlsearch
+# Example: [kakoune-hlsearch](https://github.com/krornus/kakoune-hlsearch)
 
 The following will make the key <F3> toggle highlighting of the search regex
 ```
