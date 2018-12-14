@@ -1,6 +1,7 @@
-# kak-toggle-map
+# kakoune-toggle-map
 
-This is a kakoune plugin for creating togglable commands. It defines the command `toggle-map` which takes two mappings instead of one. The first mapping is for the toggled-on mode, and the second is the toggled-off.
+This is a kakoune plugin for creating togglable commands. It defines the command `toggle-map` which takes two mappings instead of one. The first mapping is run when toggling on, and the second is run when toggling off.
+The toggle-on command is the default mapping.
 
 # Example: hlsearch
 
