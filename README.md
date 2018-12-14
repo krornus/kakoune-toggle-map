@@ -17,3 +17,16 @@ define-command hlsearch-off %{
     remove-highlighter global/hltoggle
 }
 ```
+
+# Install
+Place in autoload or use [plug.kak](https://github.com/andreyorst/plug.kak).
+
+# plug.kak
+If you use plug.kak, any commands which use `toggle-map` should be used in the following fashion
+```
+plug "krornus/kakoune-toggle-map" %{
+    plug "krornus/kakoune-hlsearch" %{
+        toggle-map global normal <F3> hlsearch-on hlsearch-off
+    }
+}
+```
