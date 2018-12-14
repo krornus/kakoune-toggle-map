@@ -19,7 +19,7 @@ define-command hlsearch-off %{
 ```
 
 # Install
-Place in autoload or use [plug.kak](https://github.com/andreyorst/plug.kak).
+Place in autoload/ or use [plug.kak](https://github.com/andreyorst/plug.kak).
 
 # plug.kak
 If you use plug.kak, any commands which use `toggle-map` should be used in the following fashion
