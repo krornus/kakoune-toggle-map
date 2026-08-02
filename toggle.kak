@@ -2,7 +2,7 @@ define-command -params 5..7 toggle-map %{ evaluate-commands %sh{
     if [ $# -eq 6 ]; then
         echo "fail %{Error: 'toggle-map' wrong argument count}"
         exit 1
-    elif [ "$1" == "-docstring" ]; then
+    elif [ "$1" = "-docstring" ]; then
         shift 1
         doc="$1"
         shift 1
